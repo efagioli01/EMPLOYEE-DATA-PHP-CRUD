@@ -1,21 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style type="text/css">
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            color: pink;
-            font-family: monospace;
-            font-size: 25px;
-            text-align: left;
-        }
-
-        th {
-            background-color: green;
-            color: while;
-        }
-        </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,6 +17,12 @@
         <th>Rating</th>
     </tr>   
     <?php
+
+    $serverName = "localhost";
+    $username = "root";
+    $password = "";
+    $dbName = "music";
+
     
     $conn = mysqli_connect("localhost", "root", "", "music");
     $sql = "SELECT * FROM songs";

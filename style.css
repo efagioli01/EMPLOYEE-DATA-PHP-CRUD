@@ -1,0 +1,15 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: left;
+}
+
+th {
+    background-color: black;
+    color: while;
+}
+
+tr:nth-child(even) {background-color: #D3D3D3}
