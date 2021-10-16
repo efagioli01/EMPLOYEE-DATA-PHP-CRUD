@@ -9,7 +9,7 @@ table {
 
 th {
     background-color: black;
-    color: while;
+    color: white;
 }
 
 tr:nth-child(even) {background-color: #D3D3D3}
