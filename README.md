@@ -30,6 +30,8 @@ I created a simple PHP application for an employee data table using CRUD operati
 This screen capture depicts the information from the database 
 
 ![page](1.PNG)
+![page](2.PNG)
+![page](3.PNG)
 
 
 
