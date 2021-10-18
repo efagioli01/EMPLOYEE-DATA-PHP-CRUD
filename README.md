@@ -22,7 +22,7 @@ I created a simple PHP application for an employee data table using CRUD operati
 
 ### Github Repository
 
-[PHP Github Repository](https://github.com/efagioli01/phpapp)
+[PHP Github Repository](https://github.com/efagioli01/EMPLOYEE-DATA-PHP-CRUD)
 
 
 ## Screen Capture
@@ -57,7 +57,7 @@ Import database.sql file
 ```
 
 ```
-Access with localhost/phpapp/table.php
+Access with http://localhost/PHP%20Employees/
 ```
 
 
