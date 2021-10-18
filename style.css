@@ -1,15 +1,76 @@
-table {
+.btn{
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    border: solid gray;
+    text-decoration: none;
+}
+
+button{
+    text-decoration: none;
+}
+
+.btn1{
+    float: right;
+}
+
+
+.wrap{
+    width: 600px;
+    margin: 0 auto;
+}
+
+table tr td:last-child{
+    width: 120px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.label{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  textarea[name=address] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .record{
+      border: solid gray;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .table{
     border-collapse: collapse;
     width: 100%;
-    color: grey;
+    color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     text-align: left;
-}
 
-th {
-    background-color: black;
-    color: white;
-}
+  }
 
-tr:nth-child(even) {background-color: #D3D3D3}
+
+ 
