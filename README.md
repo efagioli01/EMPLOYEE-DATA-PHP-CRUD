@@ -29,7 +29,7 @@ I created a simple PHP application for an employee data table using CRUD operati
 
 This screen capture depicts the information from the database 
 
-![page](images/Capture.PNG)
+![page](1.PNG)
 
 
 
