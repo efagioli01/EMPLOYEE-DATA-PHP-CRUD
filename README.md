@@ -12,10 +12,16 @@ Erica Fagioli
 -   [Tools](#tools)
 -   [Use](#use)
 -   [License](#license)
+-   [Notes](#notes)
 
 ## Description
 
 I created a simple PHP application for an employee data table using CRUD operation on a MYSQL database. I used CRUD to create employee data, read employee  data, update employee data, and delete the employee data.
+
+I decided to use the CRUD operation as I did another project called Object Relational Mapping E-commerce a few months back. I configured a working Express.js API to use Sequelize to interact with a MySQL database. As it ran in the backend Insmnia was used for the requests. It was a good learning experience doing a similar app in PHP.
+
+## Notes
+I did not use LANDO as I was not familar with it, since interviewing I have been reading the documentation and watching videos to familiarize myself with it
 
 
 ## Links
@@ -42,10 +48,10 @@ This screen capture depicts the information from the database
 ## Use
 
 ```
-To use this application, : Clone from git
+To use this application : Clone from git
 ```
 ```
-Import database to PHPMYADMIN (SQL DB)
+Import schema to PHPMYADMIN (SQL DB)
 
 CREATE TABLE employees (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
